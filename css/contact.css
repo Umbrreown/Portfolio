@@ -1,0 +1,44 @@
+.section-projects {
+    min-width: 50%;
+    max-width: 50rem;
+    min-height: 40vh;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#section-projects-1 {
+    margin-top: 10rem;
+}
+.projects {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #FFEBAD;
+    padding: 3rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+.projects-h1 {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+}
+.projects-text {
+    margin: 0;
+}
+.contact-link-container {
+    display: flex;
+    flex-direction: row;
+}
+.contact-link {
+    margin-right: 1rem;
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.contact-link:visited {
+    color: black;
+    text-decoration: underline;
+}

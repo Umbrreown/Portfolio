@@ -85,29 +85,15 @@ nav.scroll {
     border: 1rem solid #A5F1E9;
     border-radius: 50%;
     overflow: hidden;
-    background-image: url(/images/face.jpg);
+    background-image: url(/images/heike.jpg);
     background-repeat: no-repeat;
     background-size: 25rem;
     background-position: center;
 }
-#arrow-down:hover,
-#arrow-down:focus {
-    animation: bounce 2s infinite;
-}
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(30px);
-  }
-  60% {
-    transform: translateY(15px);
-  }
-}
+
 #arrow-down {
     text-align: center;
-    transform: rotate(-90deg)
+    transform: rotate(90deg)
 
 }
 main {
@@ -116,7 +102,7 @@ main {
     align-items: center;
     flex-direction: column;
 }
-.section {
+.section-main {
     min-width: 50%;
     max-width: 50rem;
     min-height: 40vh;
@@ -125,7 +111,7 @@ main {
     justify-content: center;
     align-items: center;
 }
-#section-1 {
+#section-main-1 {
     margin-top: 10rem;
 }
 .greeting {
@@ -140,7 +126,7 @@ main {
 .greeting-text {
     margin: 0;
 }
-.section-h1 {
+.section-main-h1 {
     font-family: 'Roboto Mono', monospace;
     margin: 0;
 }
@@ -150,11 +136,22 @@ main {
     border-top: 0.5rem dotted #A5F1E9;
     margin: 10rem 0;
 }
-#section-2 {
+#section-main-2 {
     background-color: #FFEBAD;
     padding: 3rem;
     border-radius: 10px;    
     margin-bottom: 10rem;
+}
+.projects-link {
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+.projects-link:visited {
+    color: black;
+    text-decoration: underline;
 }
 #back-to-top {
     transform: rotate(-90deg)
