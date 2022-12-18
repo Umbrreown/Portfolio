@@ -11,7 +11,7 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 main : #43B3A7
 main-accent : #A5F1E9
 second : #FFEBAD
-second-accent : ##D8C487
+second-accent : #FFF6BF
 
  */
 
@@ -116,7 +116,7 @@ main {
     margin-top: 10rem;
 }
 .greeting {
-    background-color: #D8C487;
+    background-color: #FFF6BF;
     padding: 3rem;
     border-radius: 10px;
 }
